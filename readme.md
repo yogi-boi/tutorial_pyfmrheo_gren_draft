@@ -1,4 +1,4 @@
-# PyFMGUI
+# Summer School tutorial
 
 ## Introduction
 This notebok is an illustrative example of how to analyse force curves acquired from nanoscope to fit an appropriate contact model (hertz) and meausure the nano-mechanics.
@@ -30,10 +30,3 @@ pip install -r requirements.txt
 ```
 jupyter lab 
 ```
-
-## To Do
-- Generate documentation with examples and tutorials
-- Improve multiprocessing
-- Improve tree control for files (allow to load multiple directories at once and assign folder as group)
-- Allow to save analysis sessions and load them after
-- Improve error handling and logging
