@@ -36,7 +36,7 @@ def raw_plt_curve(force_curve,error=None):
 folder_path = '/Users/yogehs/Documents/ATIP_PhD/tutorial_pyfmrheo_gren/test_files/'
 file_paths_in_folder = sorted([folder_path+f for f in os.listdir(folder_path) if Path(f).suffix[1:].isnumeric()])
 file_paths_in_folder
-file_path = file_paths_in_folder[2]
+file_path = file_paths_in_folder[0]
 
 
 # Load File
@@ -45,12 +45,6 @@ filemetadata = file.filemetadata
 print(filemetadata['file_type'])
 
 
-filemetadata['peakforce'] = False
-filemetadata['PFC_freq'] = 0
-filemetadata['PFC_amp'] = 0
-filemetadata['QNM_sync_dist'] = 0
-
-filemetadata['PFC_nb_samppoints'] = 0
 # Define parameters to perform the HertzFit
 
 # Get some of the file metadata
