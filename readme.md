@@ -31,20 +31,29 @@ conda activate yourenvname
 conda install git
 ```
 
-
 - Install the PYFMreader and PyFMRheo from DyNaMo's repositary 
 ```
 
 pip install -e git+https://github.com/DyNaMo-INSERM/PyFMReader_DyNaMo@master#egg=pyfmreader_dynamo    
 
-pip install -e git+https://github.com/DyNaMo-INSERM/PyFMRheo_DyNaMo@main#egg=pyfmrheo_dynamo    
+pip install -e git+https://github.com/DyNaMo-INSERM/PyFMRheo_DyNaMo@main#egg=pyfmrheo_dynamo
+```
+
+## Download tutorial
+```
+git clone https://github.com/DyNaMo-INSERM/Tutorial_AFM_mecabio.git
+```
+## Change folder
+```
+cd Tutorial_AFM_mecabio
 ```
 
 - Install other dependencies from requirements.txt
 ```
 pip install -r requirements.txt
 ```
-- Open a jupyter notebook 
+
+## Open the notebook
 ```
-jupyter lab 
+jupyter lab PYFM_rheo_summerschool-1.ipynb
 ```
